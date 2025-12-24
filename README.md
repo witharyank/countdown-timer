@@ -8,7 +8,7 @@ A simple countdown timer built with Python and Tkinter.
 - Clean, modern UI
 
 ## Requirements
-- Python 3.x
+- Python 3.11
 - Tkinter (included with most Python installs)
 
 ## Run
