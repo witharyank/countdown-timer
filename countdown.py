@@ -63,6 +63,10 @@ root.title("⏳ Countdown Timer")
 root.geometry("360x280")
 root.resizable(False, False)
 root.config(bg="#1E1E2E")
+root.bind("<Return>", lambda e: start_timer())
+root.bind("<space>", lambda e: pause_timer())
+root.bind("r", lambda e: reset_timer())
+
 
 title_label = tk.Label(root, text="Countdown Timer", font=("Helvetica", 18, "bold"),
                        bg="#1E1E2E", fg="#FFD700")
