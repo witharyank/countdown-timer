@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+import winsound
 
 running = False
 remaining_time = 0
@@ -55,6 +56,8 @@ def countdown():
         root.after(1000, countdown)
     elif remaining_time == 0 and running:
         running = False
+        for _ in range(3):
+            winsound.Beep(1200, 300)
         messagebox.showinfo("Time's Up!", "⏰ Countdown Complete!")
         reset_timer()
 
