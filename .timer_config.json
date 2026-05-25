@@ -1,0 +1,23 @@
+{
+    "theme": "Slate Dark",
+    "presets": [
+        [
+            "1 Min",
+            "00:01:00"
+        ],
+        [
+            "5 Min",
+            "00:05:00"
+        ],
+        [
+            "10 Min",
+            "00:10:00"
+        ],
+        [
+            "25 Min",
+            "00:25:00"
+        ]
+    ],
+    "tick_sound": false,
+    "alert_style": "Chime"
+}
